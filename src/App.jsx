@@ -1,13 +1,9 @@
-import BaiTapThucHanhLayout from "./components/BaiTapThucHanhLayout";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import BaiTapThucHanhLayout from "./components/BaiTapLayoutComponent/BaiTapThucHanhLayout";
 
 function App() {
   return (
     <>
       <BaiTapThucHanhLayout />
-      <Header />
-      <Footer />
     </>
   );
 }
